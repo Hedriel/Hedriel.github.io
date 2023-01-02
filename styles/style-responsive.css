@@ -16,4 +16,12 @@
         margin-bottom: 11.5%;
     }
 }
+@media screen and (max-width: 1368px) {
+    .flex-container{
+        margin-bottom: 1%;
+    }
+    .tipito-laburando{
+        margin-bottom: 3%;
+    }
+}
 

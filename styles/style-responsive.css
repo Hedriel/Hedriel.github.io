@@ -17,21 +17,3 @@
     }
 }
 
-@media screen and (max-width: 1366px) {
-    .flex-container{
-        margin-bottom: 4%;
-    }
-    .tipito-laburando{
-        margin-bottom: 3%;
-    }
-}
-
-/* Mobile */
-@media screen and (max-width: 600px) {
-    .flex-container{
-        margin-bottom: 30%;
-    }
-    .tipito-laburando{
-        margin-bottom: 40%;
-    }
-}

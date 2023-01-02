@@ -1,11 +1,10 @@
 .flex-container{
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row-reverse;
     background-color: rgb(172, 172, 172);
     padding: 5px;
     border: 3px solid black;
     justify-content:center;
-    
 }
 
 .tipito-laburando{
@@ -20,4 +19,10 @@ footer{
     flex-flow: column;
     border: 3px solid black;
     background-color: rgb(172, 172, 172);
+}
+
+img{
+    align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }

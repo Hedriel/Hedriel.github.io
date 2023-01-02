@@ -1,5 +1,14 @@
+/* Desktop */
+@media screen and (max-width: 2560px) {
+    .flex-container{
+        margin-bottom: 17%;
+    }
+    .tipito-laburando{
+        margin-bottom: 16.3%;
+    }
+}
 
-@media screen and (min-height: 1920px) {
+@media screen and (max-width: 1920px) {
     .flex-container{
         margin-bottom: 15%;
     }
@@ -8,20 +17,21 @@
     }
 }
 
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 1366px) {
     .flex-container{
-        margin-bottom: 6%;
+        margin-bottom: 7%;
     }
     .tipito-laburando{
-        margin-bottom: 6.8%;
+        margin-bottom: 6%;
     }
 }
 
+/* Mobile */
 @media screen and (max-width: 600px) {
     .flex-container{
         margin-bottom: 30%;
     }
     .tipito-laburando{
-        margin-bottom: 15%;
+        margin-bottom: 40%;
     }
 }

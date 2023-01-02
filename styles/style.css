@@ -9,10 +9,15 @@
 }
 
 .tipito-laburando{
-    width: 15%;
-    padding: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    flex-flow: column;
+    border: 3px solid black;
+    background-color: rgb(172, 172, 172);
 }

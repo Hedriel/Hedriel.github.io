@@ -1,0 +1,27 @@
+
+@media screen and (min-height: 1920px) {
+    .flex-container{
+        margin-bottom: 15%;
+    }
+    .tipito-laburando{
+        margin-bottom: 10.5%;
+    }
+}
+
+@media screen and (max-height: 768px) {
+    .flex-container{
+        margin-bottom: 6%;
+    }
+    .tipito-laburando{
+        margin-bottom: 6.8%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flex-container{
+        margin-bottom: 30%;
+    }
+    .tipito-laburando{
+        margin-bottom: 15%;
+    }
+}

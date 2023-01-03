@@ -1,9 +1,8 @@
 .flex-container{
     display: flex;
     flex-flow: row-reverse;
-    background-color: rgb(172, 172, 172);
     padding: 5px;
-    border: 3px solid black;
+    border-bottom: 3px solid black;
     justify-content:center;
 }
 
@@ -17,13 +16,29 @@
 footer{
     display: flex;
     flex-flow: column;
-    border: 3px solid black;
     padding-left: 1%;
-    background-color: rgb(172, 172, 172);
+    border-top: 3px solid black;
 }
 
-img{
-    align-self: center;
+.my-name{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.logo{
+    left: 0%;
+    position:absolute;
+    align-self:center;
     padding-left: 5%;
     padding-right: 5%;
+    margin-right: 5%;
+    transition: all 1s;
 }
+
+.logo:hover{
+ transform: scale(1.15);
+ transition: all 1s;
+}
+
+

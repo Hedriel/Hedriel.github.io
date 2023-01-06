@@ -47,6 +47,12 @@ nav{
     text-decoration: none;
 }
 
+.header .nav-links a:visited{
+    font-size: 24;
+    text-decoration: none;
+    color: #19191A;
+}
+
 .header .nav-links li:hover{
     transition: all 0.9s;
     transform: scale(1.2);

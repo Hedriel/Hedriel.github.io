@@ -1,9 +1,6 @@
-*{
+body{
     background-color: EAE6E6;
     color: #19191A;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .header{

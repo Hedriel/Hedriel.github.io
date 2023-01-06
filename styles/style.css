@@ -62,9 +62,9 @@ nav{
 .main{
     height: 80%;
     display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
-    justify-content: center
 }
 
 .footer{

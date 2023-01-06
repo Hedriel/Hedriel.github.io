@@ -62,13 +62,19 @@ h3{
     margin-left: 3%;
 }
 
-.experiences{
-    margin-bottom: 1%;
+.proficiency .experience{
+    margin-bottom: 15px;
 }
 
 .experiences ul li{
     list-style: none;
     font-size: 20px;
+    text-align: left;
+}
+
+.experiences p{
+    text-align: left;
+    margin: 4px;
 }
 
 
@@ -87,9 +93,8 @@ h3{
 }
 
 .proficiency{
-    width: 20%;
-    text-align: center;
-    align-self: center;
+    width: 25%;
+
 }
 
 .education{

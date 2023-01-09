@@ -26,6 +26,9 @@
     .main{
         height: 70%;
     }
+    .logo{
+        display: none;
+    }
 
 }
 

@@ -92,21 +92,29 @@ ul {
 
 }
 
-@media screen and (max-width: 550px) {
-    .proficiencies {
-        justify-content: left;
-    }
-
-    .resume-header {
-        flex-wrap: wrap;
-    }
+.proficiencies{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
 }
 
-@media screen and (max-width: 415px) {
-    .proficiencies {
-        justify-content: center;
-        text-align: center;
-    }
+.proficiency{
+    width: 40%;
+
 }
 
-/*<Proficiencies Styles/>*/
+.education{
+    display: flex;
+    flex-direction: column;
+}
+
+p{font-size: 20px;}
+
+.resume-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}

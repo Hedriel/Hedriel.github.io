@@ -12,10 +12,6 @@ body{
     border-bottom: 3px solid #19191A;
 }
 
-h1{
-    text-align: center;
-}
-
 .header .logo img{
     height: 70px;
     width: auto;

@@ -1,113 +1,112 @@
+/*<Global Styles*/
+* {
+    margin: 2px;
 
-.A4{
-   
-    margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
+}
+
+main {
+    display: flex;
+    justify-content: center
+}
+
+.A4 {
+    margin-top: 4rem;
+    width: 680px;
+    min-width: 300px;
     border: 4px solid #19191A;
 }
 
-.resume-header{
+/*</Global Styles*/
+/*<Personal info Styles>*/
+.resume-header {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: center;
-    margin: 2%;
-    background-color: rgb(223, 223, 223);
-    
+    background-color: #DFDFDF;
+    margin: 1.5rem;
+    padding: 1rem;
 }
 
-.resume-header li{
-    list-style: none;
-    font-size: 18px;
-    color: #19191A;
+@media screen and (max-width: 550px) {
+
+    .resume-header,
+    .personal-info ul li,
+    .personal-info a {
+        font-size: 14px;
+    }
 }
 
-.resume-header li a:visited{
-    color: #19191A;
+.resume-header ul {
+    padding-left: 0;
 }
 
-.resume-header li a{
-    color: #19191A;
-}
-
-.my-name{
-    display: flex;
-    flex-direction: column;
+.resume-header h1,
+h2 {
     text-align: center;
 }
 
-h1, h2{
-    margin: 5px;
-}
-
-h2{
-    font-size: 26px;
-}
-
-h3{
-    font-size: 24px;
-    margin: 1%;
-    font-weight: bold;
-}
-
-.job-title{
-    font-size: 18px;
-    margin-top: 2%;
-    font-weight: bold;
-
-}
-
-.experience{
-    margin-top: 1%;
-    margin-left: 3%;
-}
-
-.proficiency .experience{
-    margin-bottom: 15px;
-}
-
-.experiences ul li{
+.resume-header li,
+a {
     list-style: none;
-    font-size: 20px;
-    text-align: left;
+    color: #19191A;
+    font-size: 18px;
 }
 
-.experiences p{
-    text-align: left;
-    margin: 4px;
-}
-
-
-.certificates{
-    display: flex;
-    align-items: center;
-    margin: 2%;
-    background-color: rgb(223, 223, 223);
-}
-
-.proficiencies{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    
-}
-
-.proficiency{
-    width: 40%;
-
-}
-
-.education{
+.my-name {
     display: flex;
     flex-direction: column;
+    align-self: center;
 }
 
-p{font-size: 20px;}
-
-.resume-body{
+/*</Personal info Styles>*/
+/*<Work Experience Styles>*/
+.main-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 1.5rem;
+    padding: 1rem;
 }
+
+.jobs {
+    margin-left: 0rem;
+}
+
+.job {
+    padding-bottom: 2px;
+}
+
+.job ul li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 35px;
+}
+
+/*</Work Experience Styles>*/
+/*<Proficiencies Styles>*/
+.proficiencies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 550px) {
+    .proficiencies {
+        justify-content: left;
+    }
+
+    .resume-header {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .proficiencies {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*<Proficiencies Styles/>*/

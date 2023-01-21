@@ -19,12 +19,15 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 484px) {
     .header{
         height: 20%;
     }
     .main{
         height: 70%;
+    }
+    .logo{
+        display: none;
     }
 
 }

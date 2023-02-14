@@ -162,7 +162,7 @@ a
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
-    color: white;
+    color: white !important;
     border-radius: 40px;
     display: inline-block;
     white-space: nowrap;
@@ -468,6 +468,7 @@ h3.my-profession
 {
     flex: 0 0 50%;
     max-width: 50%;
+    height: 8vh;
 }
 
 .about .about-content .personal-info .info-item p
@@ -483,7 +484,7 @@ h3.my-profession
     font-weight: 400;
     color: var(--text-black-700);
     margin-left: 4px;
-    display: inline-block;
+    display: block;
 }
 
 .about .about-content .personal-info .buttons
@@ -671,7 +672,7 @@ h3.my-profession
 {
     background-color: var(--bg-black-100);
     border:1px solid var(--bg-black-50);
-    height: 260px;
+    height: 27vh;
     border-radius: 10px;
     padding: 30px 15px;
     text-align: center;
@@ -886,7 +887,7 @@ h3.my-profession
     }
     .aside.open
     {
-        left:0  
+        left: 0px;;
     }
     .aside .nav-toggler
     {
@@ -909,10 +910,21 @@ h3.my-profession
      left: 270px;   
     }
 
+    .about .about-content .personal-info
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .about .about-content .personal-info .row
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
     .about .about-content .personal-info .info-item p span
     {
         display: block;
         margin-left: 0;
+        overflow-wrap: break-word;
     }
  }
 
@@ -939,7 +951,8 @@ h3.my-profession
     .about .about-content .personal-info .info-item
 {
     flex: 0 0 50%;
-    max-width: 80%;
+    max-width: 100%;
+    
 }
  }
 

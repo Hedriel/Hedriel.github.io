@@ -945,6 +945,13 @@ h3.my-profession
 
  @media (max-width:767px)
 {
+
+    h3.hello span{
+        font-family: 'Clicker Script' , cursive;
+        font-size: 35px;
+        font-weight: 700;
+        color: var(--skin-color);
+    }
     .section.open
     {
      left: 0px;   

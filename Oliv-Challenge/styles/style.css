@@ -361,4 +361,9 @@ color: black;
         justify-content: center;
         margin: 1rem 2rem 5rem 2rem;
     }
+
+    .footer
+    {
+        font-size: 8px;
+    }
 }

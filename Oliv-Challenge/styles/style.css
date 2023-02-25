@@ -24,7 +24,7 @@ h2{
 .rounded{
     border: 1px solid rgba(21,21,21,0.6);
     border-radius: 500px;
-    padding: 16px;
+    padding: 10px 16px;
 }
 .bold
 {
@@ -36,6 +36,11 @@ h2{
 }
 .hidden{
     display: none;
+}
+
+.active
+{
+    border-bottom: 1px solid black;
 }
 /* Utilidades End*/
 
@@ -348,7 +353,7 @@ color: black;
 
     .work .container .grid .post .post-title
     {
-        margin-bottom: 5px;
+        margin: 0;
         font-size: 18px;
     }
 

@@ -71,7 +71,7 @@ header nav ul{
 .hero .container
 {
     max-width: 1400px;
-    margin: 8rem;
+    margin: 4rem 4rem 8rem 4rem;
     height: auto;
 }
 
@@ -97,7 +97,8 @@ header nav ul{
 .services
 {
     justify-content: center;
-    margin-bottom: 160px;
+    height: auto;
+    margin-bottom: 100px;
 }
 .services .container .grid
 {
@@ -108,14 +109,18 @@ header nav ul{
 }
 
 .services .container .grid .card{
+    display: flex;
+    flex-direction: column;
     padding: 48px;
     background-color: #f9f9f9;   
+    justify-content: space-between;
 }
 .services .container .grid .card .title
 {
     height: 4rem;
     font-size: 24px;
 }
+
 
 .services .container .grid .card .description
 {
@@ -168,29 +173,27 @@ header nav ul{
 .work .container .grid .post
 {
     display: flex;
-    flex-direction: column;
-
-}
-.work .container .grid .post .post-info
-{
-    margin: 20px 0 20px 0;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .work .container .grid .post img
 {
     max-width: 100%;
-    height: auto;
 }
 
-.work .container .grid .post .post-info .post-title
+.work .container .grid .post .post-title
 {
     font-size: 24px;
+    margin: 10px;
 }
-.work .container .grid .post .post-info div .rounded
+
+.work .container .grid .post .tag .rounded
 {
+    font-size: 12px;
     padding: 8px 10px;
+    margin-top: 10px;
 }
 /* Work End */
 
@@ -204,7 +207,7 @@ header nav ul{
     width: 1600px;
 }
 .why .container .grid{
-    width: 800px;
+    max-width: 800px;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
@@ -244,3 +247,113 @@ color: black;
     margin: 0 10px 0 10px;
 }
 /* Footer End */
+
+@media (max-width:1350px){
+    .services .container .grid
+    {
+        margin: 0 24px;
+        grid-template-columns: repeat(2, 1fr);   
+    }
+
+    .work .container
+    {
+        max-width: 1200px;
+        margin: 0 30px;
+    }
+
+}
+
+@media (max-width:800px){
+
+    header
+    {
+        width: 100%;
+        position: fixed;
+        background-color: white;
+    }
+    
+    header nav
+    {
+        margin: 0;
+        font-size: 14px;
+        border-bottom: 1px solid #F3F3F3;
+        justify-content: center;
+    }
+
+    header nav ul{
+        align-items: center;
+        gap:1rem;
+    }
+
+    header nav .logo
+    {
+        display: none;
+    }
+
+    h2
+    {
+        font-size: 36px;
+    }
+
+    .hero
+    {
+        padding-top: 4rem;
+    }
+
+    .hero .container
+    {
+        margin: 2rem;
+    }
+    .hero .container .building-brands h1
+    {
+        font-size: 48px;
+    }
+
+    .hero .container p
+    {
+        font-size: 18px;
+    }
+
+    .services .container .grid
+    {
+        margin: 0 24px;
+        grid-template-columns: repeat(1, 1fr);   
+    }
+
+    .work .container
+    {
+        margin:0 32px;
+    }
+
+    .work .container .section-title span
+    {
+        min-width: max-content;
+    }
+    .work .container .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+    }
+    .work .container .grid .post
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .work .container .grid .post .tag
+    {
+        margin: 15px 0 15px 0;
+        order: -1;
+    }
+
+    .work .container .grid .post .post-title
+    {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .why{
+        justify-content: center;
+        margin: 1rem 2rem 5rem 2rem;
+    }
+}

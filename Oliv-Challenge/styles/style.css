@@ -6,6 +6,11 @@ padding: 0;
 list-style: none;
 font-family: 'Manrope', sans-serif;
 }
+html
+{
+    scroll-behavior: smooth;
+}
+
 
 button, input[type="submit"], input[type="reset"] {
 	background: none;
@@ -20,6 +25,12 @@ button, input[type="submit"], input[type="reset"] {
 a{
     text-decoration: none;
     color: unset;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
 /* Utilidades Start */
 .flex{
@@ -82,8 +93,19 @@ header nav ul{
     flex-wrap: nowrap;
     align-items: center;
     gap:2rem;
-    
 }
+
+header nav ul li:hover :not(button){
+    border-bottom: 1px solid black;
+}
+
+button{
+    transition: all 0.3s ease;
+}
+button:hover{
+scale: 1.1;
+}
+   
 /* Nav End */
 
 /* Hero Start */
@@ -137,7 +159,13 @@ header nav ul{
     padding: 48px;
     background-color: #f9f9f9;   
     justify-content: space-between;
+    transition: all 0.3s ease;
 }
+
+.services .container .grid .card:hover{
+    border-radius: 50px;
+}
+
 .services .container .grid .card .title
 {
     height: 4rem;
@@ -156,6 +184,11 @@ header nav ul{
 .services .container .grid .card .about
 {
     border-bottom: 1px solid black;
+}
+
+.services .container .grid .card .about:hover
+{
+    font-weight: bold;
 }
 /* Services End */
 
@@ -205,6 +238,12 @@ header nav ul{
 {
     max-width: 100%;
     cursor: pointer;
+}
+
+.work .container .grid .post img:hover
+{
+    border-bottom-right-radius: 25%;
+    transition: all 0.3s ease;
 }
 
 .work .container .grid .post .post-title

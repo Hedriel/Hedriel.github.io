@@ -187,12 +187,6 @@ header nav ul{
     margin-bottom: 2rem;
 }
 
-.work .container .section-title h2
-{
-   width: min-content;
-}
-
-
 .work .container .grid
 {
     grid-template-columns: repeat(2, 1fr);
@@ -240,6 +234,7 @@ header nav ul{
     max-width: 800px;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
+    margin: 5px;
 }
 .why .container .grid h2
 {
@@ -355,10 +350,6 @@ color: black;
         margin:0 32px;
     }
 
-    .work .container .section-title span
-    {
-        min-width: max-content;
-    }
     .work .container .grid
     {
         grid-template-columns: repeat(1, 1fr);
@@ -390,5 +381,12 @@ color: black;
     .footer
     {
         font-size: 8px;
+    }
+
+}
+@media (max-width:450px){
+    .work .container .section-title h2
+    {
+    width: min-content;
     }
 }

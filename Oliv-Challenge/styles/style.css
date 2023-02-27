@@ -99,6 +99,10 @@ header nav ul li:hover :not(button){
     border-bottom: 1px solid black;
 }
 
+header nav ul li:active :not(button){
+    border-bottom: 1px solid black;
+}
+
 button{
     transition: all 0.3s ease;
 }

@@ -17,7 +17,7 @@
             </div>
             <div>
                 <ul class="flex">
-                    <li><a href="#work">Work</a></li>
+                    <li class="active"><a href="#work">Work</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#why">About</a></li>
                     <li><a href="">Blog</a></li>
@@ -170,4 +170,16 @@
 </div>
 <!-- Footer End -->
 </body>
+
+<script>
+    const navItem = document.querySelectorAll('li a')
+    console.log(navItem)
+    navItem.forEach(navItem =>{
+        navItem.addEventListener('click', () => {
+            document.querySelector('.active')?.classList.remove('active')
+            navItem.classList.add('active')
+        })
+    })
+</script>
 </html>
+

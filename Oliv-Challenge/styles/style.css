@@ -188,11 +188,6 @@ header nav d ul{
     margin-bottom: 2rem;
 }
 
-.work .container .section-title h2
-{
-   width: min-content;
-}
-
 
 .work .container .grid
 {
@@ -356,6 +351,10 @@ color: black;
         margin:0 32px;
     }
 
+    .work .container .section-title h2
+    {
+    width: min-content;
+    }
     .work .container .section-title span
     {
         min-width: max-content;

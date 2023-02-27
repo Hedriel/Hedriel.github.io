@@ -78,9 +78,8 @@ header nav .logo
     cursor: pointer;
 }
 
-header nav d ul{
-    flex-wrap: wrap;
-    align-content: center;
+header nav ul{
+    flex-wrap: nowrap;
     align-items: center;
     gap:2rem;
     
@@ -186,6 +185,11 @@ header nav d ul{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2rem;
+}
+
+.work .container .section-title h2
+{
+   width: min-content;
 }
 
 
@@ -351,10 +355,6 @@ color: black;
         margin:0 32px;
     }
 
-    .work .container .section-title h2
-    {
-    width: min-content;
-    }
     .work .container .section-title span
     {
         min-width: max-content;

@@ -78,8 +78,9 @@ header nav .logo
     cursor: pointer;
 }
 
-header nav ul{
+header nav d ul{
     flex-wrap: wrap;
+    align-content: center;
     align-items: center;
     gap:2rem;
     
@@ -186,6 +187,12 @@ header nav ul{
     justify-content: space-between;
     margin-bottom: 2rem;
 }
+
+.work .container .section-title h2
+{
+   width: min-content;
+}
+
 
 .work .container .grid
 {
